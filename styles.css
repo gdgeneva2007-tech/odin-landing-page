@@ -1,0 +1,154 @@
+*{
+    font-family:Roboto,sans-serif;
+}
+.block1{    
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left:200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    gap:150px;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap:10px;
+}
+.first{
+    display:flex;
+    justify-content: space-between;
+}
+.second{
+    display:flex;
+    gap:200px;
+    justify-content: space-between;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    align-items: flex-start;
+    gap:50px;
+}
+
+.img1{
+    width:500px;
+}
+.footer{
+    background-color: #1F2937;
+    padding:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.heromain{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+.herosecond{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.headerlink{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.headerlogo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+.button{
+    background-color: #3882F6;
+    padding:5px 15px;
+    border-radius:10px;
+    font-size: 18px;
+    color:aliceblue;
+}
+.button.two{
+    border:3px white solid;
+}
+.ctab{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 150px;
+    align-items: center;
+    gap:200px;
+    border-radius:20px;
+}
+.ctabtext{
+    display:flex;
+    flex-direction: column;
+}
+.infoheader{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+.block3{
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction: column;
+    padding:150px 500px;
+    align-items: center;
+    
+}
+.quotesmall{
+    display:flex;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+}
+.quotebig{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+    
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    padding:100px;
+    align-items: center;
+}
+.pictext{
+    display:flex;
+    gap:80px;
+}
+.group{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    /*width:150px;*/
+    gap:10px;
+    flex-grow:1;
+}
+.block4{
+    display:flex;
+    padding:150px;
+    justify-content: center;
+}
+.cta1{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta2{
+    color:#F9FAF8;
+    font-size: 18px;   
+}
+.footertext{
+    color:#E5E7EB;
+    font-size:18px;
+}
+a{
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
